@@ -1,0 +1,99 @@
+/* index.css */
+
+/* Styles pour la section du titre */
+.SectionTitre {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .titre {
+    font-size: 24px;
+    color: #333;
+  }
+  
+  /* Styles pour la zone de saisie */
+  .zoneSaisie {
+    text-align: center;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  h4 {
+    font-size: 18px;
+    color: #666;
+  }
+  
+  input[type="number"] {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 200px;
+    margin-top: 10px;
+  }
+  
+  button 
+  {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+
+  button:hover
+  {
+    background-color: white;
+    color: black;
+  }
+
+  
+  
+  /* Styles pour l'affichage des résultats */
+  #affichageResultat 
+  {
+    align-items: center;
+    text-align: center;
+    margin-top: 30px !important;
+    border-radius: 15%;
+    border: solid;
+    width: 400px;
+    margin: 0 auto;
+  }
+
+
+  .none
+  {
+    display: none;
+  }
+  
+  /* Styles pour le tableau de recapitulation */
+
+  #recapitulation
+  {
+    margin-top: 20px;
+  }
+
+  table
+  {
+    border-collapse: collapse;
+    margin: 0 auto; /* Pour centrer le tableau au milieu de la page */
+  }
+
+  th, td 
+  {
+    border: 1px solid black; /* Ajoute une bordure de 1 pixel autour des cellules */
+    padding: 8px; /* Ajoute un espace intérieur de 8 pixels aux cellules */
+  }
+
+  table th
+   {
+      font-weight: bold;
+   }
+
+
+   

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>DollarsToCent</title>
+</head>
+<body>
+
+    <div class="SectionTitre">
+        <h3 class="titre">Bienvenue sur l'app de conversion</h3>
+        <h5>Ici vous pouvez convertir depuis le dollars vers le centime</h5>
+    </div>
+
+    <div class="zoneSaisie">
+
+        <h4>Veuillez saisir le montant à convertir. La devise pas défaut est le dollar</h4>
+        <div id="flex">
+            <input type="number" id="valeur" name="valeur" placeholder="Exemple:2.50">
+            <button id="valider" value="Soumettre">Soumettre</button>
+        </div>
+        
+    </div>
+
+    <div id="affichageResultat" class="none">
+
+    </div>
+
+    <div id="recapitulation">
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Devise</th>
+                    <th>Valeur</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Dollars(1¢)</td>
+                    <td id="dollar"></td>
+                </tr>
+                <tr>
+                    <td>Quarters(25¢)</td>
+                    <td id="quarter"></td>
+                </tr>
+                <tr>
+                    <td>Dimes(10¢)</td>
+                    <td id="dimes"></td>
+                </tr>
+                <tr>
+                    <td>Nickels(5¢)</td>
+                    <td id="nickels"></td>
+                </tr>
+                <tr>
+                    <td>Pennies(1¢)</td>
+                    <td id="pennies"></td>
+                </tr>
+            </tbody>
+            
+        </table>
+
+    </div>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
+
+
