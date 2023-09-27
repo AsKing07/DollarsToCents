@@ -7,7 +7,7 @@
 * Pennies (1 ¢)
 
 ## Image
-<img src="project-img7" alt="image" />
+<img src="project-img7.png" alt="image" />
 
 # How to use
 
