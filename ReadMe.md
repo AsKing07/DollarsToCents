@@ -6,6 +6,9 @@
 * Nickels (5 ¢)
 * Pennies (1 ¢)
 
+## Image
+<img src="project-img7" alt="image" />
+
 # How to use
 
 * Clone the repository with git clone:
